@@ -10,7 +10,7 @@ declare -r chemin=/bin      # Permet de déclarer une variable comme étant une 
 
 echo $prenom $nom
 
-echo "Nom script : " $0             # $0 crée une variable qui sera enmagasiner dans des variables 1,2,3,4,...
+echo "Nom script : " $0             # $0 retourne le nom du script
 echo "Nombre de paramêtre : " $#    # Retourne le nombre de variables entrer en paramêtres.
 echo "Mon nom est : " $1 $2 $3      # On accède au paramètres comme n'importe quelle autre variables. 
 
